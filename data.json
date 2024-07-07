@@ -1,12 +1,24 @@
-[
-    {
+{
+    "students": [
+      {
         "ime": "Petre",
         "prezime": "Perovski",
         "godina": 2000
-    },
-    {
+      },
+      {
         "ime": "Aleksandar",
         "prezime": "Acevski",
         "godina": 1999
-    }
-]
+      }
+    ],
+    "recipes": [
+      {
+        "title": "Pancakes",
+        "ingredients": ["flour", "eggs", "milk"]
+      },
+      {
+        "title": "Salad",
+        "ingredients": ["lettuce", "tomatoes", "cucumber"]
+      }
+    ]
+}  
