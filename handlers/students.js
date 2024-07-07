@@ -8,7 +8,7 @@ const createStudent = async (req, res) => {
   res.status(201).send("Student created!");
 };
 
-// Update student ------------------------------------------->
+// Update student -------------------------------------------->
 const updateStudent = async (req, res) => {
   const studentIndex = req.params.index;
   const studentData = req.body;
