@@ -12,7 +12,7 @@ const read = async () => {
 
 const write = async (data) => {
   return new Promise((success, fail) => {
-    data = JSON.stringify(data);
+    data = JSON.stringify(data, null, 2); // readable format
     fs.writeFile("data.json", data, (err) => {
       if (err) return fail(err);
       return success();
