@@ -32,7 +32,7 @@ const updateStudent = async (req, res) => {
 // Read students
 const getStudents = async (req, res) => {
   const data = await read();
-  res.status(200).send(data);
+  res.status(200).send(data.students); // only get the students
 };
 
 // Delete student
